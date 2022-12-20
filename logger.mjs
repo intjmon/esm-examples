@@ -13,7 +13,7 @@ export const LEVELS = {
   verbose: 5,
 }
 
-export default class Logger {
+export class Logger {
   constructor(name) {
     this.name = name;
   }
